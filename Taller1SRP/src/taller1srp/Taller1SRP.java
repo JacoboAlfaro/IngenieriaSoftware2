@@ -14,6 +14,11 @@ public class Taller1SRP {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
+        /*
+        Cada explicacion de la separacion del codigo se encuentra dentro de cada clase.
+        */
+        
         //Crear usuario
         Usuario user1 = new Usuario("Jacobo", "jacobo.alfaro06@gmail.com", "Hola123");
         

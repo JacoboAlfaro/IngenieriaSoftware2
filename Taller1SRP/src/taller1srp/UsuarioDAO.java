@@ -16,10 +16,11 @@ public class UsuarioDAO {
         System.out.println("Contraseña: HASH(" + usuario.getContrasenia() + ")");
     }
     
-    
-    // Se separa el obtener informacion de usuarios de la clase Usuario ya que esta clase no 
-    // debería encargarse de la gestion de estos mismos, 
-    // para ello se crea una clase UsuarioDAO encargada unicamente de la
-    // gestion de usuarios, ya sea obtener su informacion, actualizarla, crear o eliminar registros (CRUD)
+    /*
+    Se separa el obtener informacion de usuarios de la clase Usuario ya que esta clase no 
+    debería encargarse de la gestion de estos mismos, 
+    para ello se crea una clase UsuarioDAO encargada unicamente de la
+    gestion de usuarios, ya sea obtener su informacion, actualizarla, crear o eliminar registros (CRUD)
+    */
     
 }

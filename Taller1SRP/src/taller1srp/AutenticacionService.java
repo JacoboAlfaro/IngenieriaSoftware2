@@ -21,8 +21,10 @@ public class AutenticacionService {
         return "Contraseña correcta, acceso validado";
     }
     
-    // Se separa la autenticación de usuarios de la clase Usuario ya que esta clase no 
-    // debería encargarse de validar si la contraseña ingresada por un usuario es correcta o no, 
-    // para ello se crea una clase autenticacionService encargada unicamente de los
-    // diferentes metodos con los que cuente la aplicacion para validar info. de usuarios.
+    /*
+    Se separa la autenticación de usuarios de la clase Usuario ya que esta clase no 
+    debería encargarse de validar si la contraseña ingresada por un usuario es correcta o no, 
+    para ello se crea una clase autenticacionService encargada unicamente de los
+    diferentes metodos con los que cuente la aplicacion para validar info. de usuarios.
+    */
 }
