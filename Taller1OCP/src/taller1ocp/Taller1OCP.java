@@ -19,8 +19,8 @@ public class Taller1OCP {
         Cada explicacion de la separacion del codigo se encuentra dentro de cada clase.
         */
         
-        EnvioEstandar estandar = new EnvioEstandar(10, 100);
-        EnvioExpress express = new EnvioExpress(10, 100);
+        EnvioInterface estandar = new EnvioEstandar(10, 100);
+        EnvioInterface express = new EnvioExpress(10, 100);
         
         CalcularCostoService calcularCostoService = new CalcularCostoService();
         
