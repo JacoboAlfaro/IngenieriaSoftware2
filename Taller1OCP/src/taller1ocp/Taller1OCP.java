@@ -21,11 +21,13 @@ public class Taller1OCP {
         
         EnvioInterface estandar = new EnvioEstandar(10, 100);
         EnvioInterface express = new EnvioExpress(10, 100);
+        EnvioInterface internacional = new EnvioInternacional(10, 100);
         
         CalcularCostoService calcularCostoService = new CalcularCostoService();
         
         System.out.println("Costo de envio estandar: " + calcularCostoService.calcularCosto(estandar));
         System.out.println("Costo de envio express: " + calcularCostoService.calcularCosto(express));
+        System.out.println("Costo de envio internacional: " + calcularCostoService.calcularCosto(internacional));
 
 
     }
